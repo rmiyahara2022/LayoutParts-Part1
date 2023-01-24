@@ -2,14 +2,13 @@
 .cell--table{
 display: table;
 text-align: center;
-table-layout: fixed;
 width: 100%;
 font-size: 18px;
 }
 
 tr:last-child { 
 border-top: 1px double rgb(255, 255, 255);
-} /* solidにすると線が消える */
+}
 th, tr, td {
 line-height: 22px;
 border: 1px solid #000000;
@@ -21,7 +20,7 @@ background-color: #319c4a;
 }
 tr:nth-child(even) {
 background-color: #d5ffc7;
-} /* trと:の間に空白を入れると列で交互に色が変わる */
+}
 tr:nth-child(odd) {
 background-color: #bcbcbc;
 }

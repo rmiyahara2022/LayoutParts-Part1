@@ -2,7 +2,7 @@
 /* 回答はここから */
 .flex{
 display: flex;
-align-items: stretch; /* 要素内のアイテムの幅や高さを同じにする */
+align-items: stretch;
 justify-content: center;
 }
 .cardlist--frame{

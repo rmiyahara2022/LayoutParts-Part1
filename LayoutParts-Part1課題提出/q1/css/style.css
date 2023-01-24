@@ -6,7 +6,6 @@
 display: flex;
 background: #fff;
 width: 200px;
-/* justify-content: center; */
 }
 .white--box2{
 display: flex;
@@ -33,17 +32,15 @@ margin: 0 auto;
 
 /* Q1-2回答 */
 .table--parent{
-display: table; /* 要素を表にする 親要素に設定することでその内部を表として取り扱える */
+display: table;
 }
 .table--child{
-display: table-cell; /* 表中のセルとして取り扱う */
-/* display: inline-block; ここで設定するとtable-cellの設定が生きないので子要素で設定する */
-vertical-align: middle; /* 垂直方向 */
-text-align: center; /* 水平方向 */
+display: table-cell;
+vertical-align: middle;
+text-align: center;
 }
-.table--text{ /* 位置設定とテキスト表示を分ける */
+.table--text{
 background-color: #fff;
-/* text-align: center; 親要素で位置を設定するのでここでは不要*/
 display: inline-block;
 padding: 10px;
 font-size: 16px;
@@ -53,7 +50,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-.flex--text{ /* 位置設定とテキスト表示を分ける */
+.flex--text{
 background-color: #fff;
 padding: 10px;
 font-size: 16px;
@@ -66,6 +63,6 @@ text-align: center;
 padding: 10px;
 position: relative;
 top: 50%;
-left: 50%; /* ここまでで子要素の左上が親要素の中央に来る */
-transform: translate(-50%, -50%); /* 子要素の中央を親要素の中央に合わせるよう補正 */
+left: 50%;
+transform: translate(-50%, -50%);
 }
